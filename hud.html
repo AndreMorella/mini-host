@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="./style/hud.css">
+</head>
+<body>
+	<div class="container">
+	<img class="wanteds" id="wanted" src="https://fornex-hud.000webhostapp.com/hud/image/wanted/wanted-0.png" width="100px" />
+		<div class="background">
+		<img class="background" id="gunid" src="https://fornex-hud.000webhostapp.com/hud/image/background/5.png" width="100px" />
+		<div class="background__wanted" id="wanted"></div>
+		<div class="container__info">
+			<div class="background__info">
+				<progress id="health" min="0" max="100" value="100"></progress>
+				<progress id="armour" min="0" style="width: 56%;margin-left: 2.3rem;" max="100" value="100"></progress>
+				<progress id="virus" min="0" style="width: 44%;margin-left: 4rem;" max="100" value="100"></progress>
+				<p align="right" id="money">0</p>
+			</div>
+			<div class="background__ammo">
+		<img class="guns" id="gunid" src="https://fornex-hud.000webhostapp.com/hud/image/guns/0.png" width="100px" />
+				<p align="center" id="ammo">100/100</p>
+			</div>			
+		</div>
+	</div>
+</body>
+<script src="./js/hud.js"></script>
+</html>

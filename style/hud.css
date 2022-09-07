@@ -1,0 +1,93 @@
+.container {
+	float: right;
+	box-sizing: border-box;
+	margin-right: 2rem;
+    margin-top: 2rem;
+}
+
+.background {
+	background: url('/image/background/0.png') no-repeat;
+	width: 440px;
+	height: 216px;
+	background-size: 440px !important;
+}
+
+.background__info {
+	float: right;
+	display: grid;
+	width: 50%;
+	margin-top: 2rem;
+	margin-left: 2px;
+}
+
+.container__info {
+	display: flex;
+    align-items: center;
+	margin-top: -10.53rem;
+}
+
+.background__gunid {
+	background: url('/image/guns/0.png');
+	width: 100px;
+	height: 100px;
+	background-size: 100px !important;
+}
+
+.background__ammo {
+	margin-left: 4.5rem;
+	margin-top: -1.9rem;
+}
+
+.background__ammo > p {
+    margin: 0;
+    font-family: 'Roboto Light', sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.background__info > progress {
+	border: none;
+	height: 4px;
+	margin-bottom: 20.5px;
+	justify-self: right;
+}
+
+.background__info > progress::-webkit-progress-bar {
+	background: #181918;
+	border-radius: 5px;
+}
+
+.background__info > progress::-webkit-progress-value {
+	border-radius: 5px;
+}
+
+.background__info > progress#health::-webkit-progress-value {
+	background: #ff4c4a;
+}
+
+.background__info > progress#armour::-webkit-progress-value {
+	background: #ffffff;
+}
+
+.background__info > progress#virus::-webkit-progress-value {
+	background: #d6af2d;
+}
+
+.background__info > p {
+    font-family: 'Roboto Medium', sans-serif;
+    font-size: 17pt;
+    color: #7bd662;
+    font-weight: 700;
+    margin-top: -0.3rem;
+}
+
+.background__wanted {
+    background: url(/image/wanted/wanted-0.png) no-repeat center center;
+    width: 100px;
+    height: 230px;
+    background-size: 100px !important;
+    position: absolute;
+    margin-left: 22.7rem;
+    margin-top: -0.7rem;
+}
